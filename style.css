@@ -14,24 +14,29 @@
 
 .bookmarks {
     margin: 15px;
-    height: 90%;
-    max-width: 90%px;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+
+
 .category {
-    margin: 10px;
+    margin: 15px;
     width: 250px;
     height: 180px;
     
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
 }
+
+
 
 .category h2 {
     margin: 5px;
@@ -49,4 +54,37 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+
+.mostvisited:hover {
+    border: 2px solid red;
+}
+
+.social:hover {
+    border: 2px solid yellow;
+}
+
+.tcs:hover {
+    border: 2px solid blue;
+}
+
+.learning:hover {
+    border: 2px solid green;
+}
+
+.shopping:hover {
+    border: 2px solid red;
+}
+
+.ai:hover {
+    border: 2px solid yellow;
+}
+
+.movies:hover {
+    border: 2px solid blue;
+}
+
+.share:hover {
+    border: 2px solid green;
 }
