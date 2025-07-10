@@ -26,11 +26,12 @@
 }
 
 
-
+    
 .category {
     margin: 15px;
     width: 250px;
     height: 180px;
+    overflow-y: auto;
     
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
